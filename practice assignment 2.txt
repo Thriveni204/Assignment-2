@@ -1,0 +1,129 @@
+#power shell
+
+1.Run a script and demonstrate adding two integers and convert them into hexadecimal?
+$a=70
+$b=30
+$c=$a + $b
+100
+To convert an interger to hexadecimal the command used in powershell is 0x
+for example: ps> 0xab
+             171
+             ps> 0xfa
+             250
+
+2.Run a script and demonstrate ifelse if condition?
+$fruit="mango"
+$fruity="banana"
+if($fruit -eq"mango") {"I love friuts"} elseif($fruit="banana") {"I hate fruits"}
+I love fruits 
+It checks the if condition if that condition is true it will print i love choco otherwise it will go to elseif and prints i hate choco.
+if the if condition is true then it will not go to the else if part.
+
+3.Run a script and demonstrate about get-commands, get-update, get-unique, get-date and get-alias?
+Get-command : this will display all the commands that are used in the powershell with the commandtype and name of the command.
+Get-date : it displays the current date and time.
+Get-process : it displays all the processess that are running on the system.
+Get-alias : it displays all the alias names for the commands that we use in powershell.
+Write-host : it is used to display whatever we right next to the command write-host.
+Get-unique : it compares each item in the sorted list to next item,eliminates duplicates,and returns only one instance of each item.
+ 
+#python programming
+ 
+1.Work on different variables in python?
+  eg1: myname = "Thriveni"
+      my_surname = "Yarraguntla"
+      print(myname)
+     
+  eg2: t=45
+       y=10
+       print(t+y)
+  
+
+2.Work on string concatination?
+ 
+ String concatination is adding or combining two strings.
+ But it is not possible to add a string and an integer if we do so we will get an error.
+ In python we can concate the strings as follows:
+ 
+ eg1:str1="Thriveni"
+    str2="Yarraguntla"
+    print(str1+str2)
+ 
+ eg 2: a = "python"      // we can write a string in double quotes.
+       b = 'programming' // we can write a string in single qoutes.
+       print(a+b)
+ 
+3.write a program of simple calculator using dynamic input?
+
+   operation=input(select operator: + for addition, - for subtraction, * for multiplication, / for division)
+   n1=input("enter the n1")
+   n2=input(:enter the n2")
+   if operator=='+':
+   print(n1+n2)
+   elif operator=='-':
+   print(n1-n2)
+   elif operator=='*':
+   print(n1*n2)
+   elif operator=='/':
+   print(n1/n2)
+   else:
+   print("invalid")
+
+  output:
+  -
+  7
+  2
+  5
+
+4.Find the type of available datatypes in python?
+  
+   The datatypes in python are
+   interger, float, bool, complex, string, list, tupple.
+   To find the type of datatype in python we have to write
+   type()
+    eg1:  t = "magic" // string datatype
+          print(type(t))
+    
+    eg2: d = 68     // integer datatype
+         print(type(d))
+          
+    eg3: f = 6.88     // float datatype
+         print(type(f))
+
+    eg4: i = 6j     // complex datatype
+         print(type(i))
+                       
+    eg5: d = 68     // integer datatype
+         print(type(d))
+          
+    eg6: y = ["tomato", "potato", "chilli"] // list data type    
+         print(type(y))
+
+    eg7: z=("cherry", "berry", "ice") //tupple datatype
+         print(type(z))
+
+    eg8: u=True       //boolean datatype
+         print(type(u))
+          
+5.Functions in python?
+   A function in python is a group of related statements that perform a specific task.We can pass parameters as data intothe function.
+   syntax: def function_name(parameters):
+            """"docstring""""""
+               statements(s)
+   eg1: def my_name():
+          print("Thriveni Yarraguntla")
+
+   eg2: def my_name():
+          print("Thriveni Yarraguntla")
+        my-name()
+
+6.String functions?
+   We have many string functions in python.
+   some of the functions used in python are:
+   capitalize() - converts the first character to uppercase.
+   casefold() - converts the string into lowercase.
+   center() - -returns the centered string.
+   count() - returns the number of times a specific character is occured.
+   replace() - replace the specific string with another.
+
+
